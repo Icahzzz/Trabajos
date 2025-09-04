@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Ejercicios2">
+  <grid id="27dc6" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="9" y="62" width="712" height="432"/>
+    </constraints>
+    <properties>
+      <background color="-7281293"/>
+      <foreground color="-1711138"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="b4768" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-15593200"/>
+          <text value="Nombre_alumno"/>
+        </properties>
+      </component>
+      <component id="a18a1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-15593200"/>
+          <text value="Primer_apellido"/>
+        </properties>
+      </component>
+      <component id="a5fa3" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="9" left="9" bottom="9" right="9" weightx="2.0" weighty="2.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d3043" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="9" left="9" bottom="9" right="9" weightx="2.0" weighty="2.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="10"/>
+        </properties>
+      </component>
+      <component id="2ce28" class="javax.swing.JButton" binding="cancelarButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="9" left="9" bottom="9" right="9" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Cancelar"/>
+        </properties>
+      </component>
+      <component id="63db3" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="9" left="9" bottom="9" right="9" weightx="2.0" weighty="2.0"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d7ee1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-15593200"/>
+          <text value="Segundo_apellido"/>
+        </properties>
+      </component>
+      <component id="cb9f6" class="javax.swing.JButton" binding="guardarButton1" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="9" left="9" bottom="9" right="9" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Guardar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
